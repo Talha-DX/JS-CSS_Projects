@@ -1,16 +1,23 @@
-function addToDisplay(value) {
+function addToDisplay(value)
+{
     document.querySelector('.display').value += value;
 }
 
-function clearDisplay() {
+function clearDisplay() 
+{
     document.querySelector('.display').value = '';
 }
 
-function calculate() {
+function calculate() 
+{
     var display = document.querySelector('.display');
-    try {
+    
+    try 
+    {
         display.value = eval(display.value);
-    } catch (error) {
+    } 
+    catch (error) 
+    {
         display.value = 'Error';
     }
 }
