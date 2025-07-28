@@ -2,7 +2,8 @@ const sec = document.querySelector('.second');
 const hour = document.querySelector('.hour');
 const min = document.querySelector('.minute');
 
-function GetTime() {
+function GetTime() 
+{
     const now = new Date();
 
     const Gsec = now.getSeconds();
