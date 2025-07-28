@@ -20,4 +20,5 @@ function GetTime()
 
 }
 
+
 setInterval(GetTime, 1000);
