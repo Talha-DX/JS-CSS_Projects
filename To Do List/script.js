@@ -1,4 +1,5 @@
-function addTask() {
+function addTask() 
+{
     const input = document.getElementById('taskInput');
     const taskText = input.value.trim();
     if (taskText === '') return;
@@ -11,7 +12,8 @@ function addTask() {
     input.value = '';
 }
 
-function removeTask(button) {
+function removeTask(button) 
+{
     const li = button.parentElement;
     li.remove();
 }
