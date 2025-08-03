@@ -1,4 +1,5 @@
-    body {
+    body 
+{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         display: flex;
         justify-content: center;
@@ -9,7 +10,8 @@
         color: #fff;
     }
 
-    .calculator {
+    .calculator 
+{
         width: 320px;
         background-color: #111;
         border-radius: 10px;
@@ -18,7 +20,8 @@
         overflow: hidden;
     }
 
-    .display {
+    .display 
+{
         width: calc(100% - 20px);
         height: 60px;
         font-size: 2em;
@@ -33,7 +36,8 @@
         transition: border-color 0.3s ease, background-color 0.3s ease, color 0.3s ease;
     }
 
-    .buttons {
+    .buttons 
+{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 10px;
