@@ -44,7 +44,8 @@
         margin-top: 10px;
     }
 
-    .button {
+    .button 
+{
         padding: 20px;
         font-size: 1.5em;
         border: none;
@@ -56,12 +57,14 @@
         outline: none;
     }
 
-    .button:hover {
+    .button:hover 
+   {
         transform: translateY(-5px);
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     }
 
-    .button.operator {
+    .button.operator
+   {
         background: linear-gradient(to right, #FF7F50, #FF6347);
     }
 
