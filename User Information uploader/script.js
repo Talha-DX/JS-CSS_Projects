@@ -6,6 +6,7 @@ document.getElementById('userInfoForm').addEventListener('submit', function(e)
     for (let [key, value] of formData.entries()) {
         userData[key] = value;
     }
+
     console.log(userData); // You can process the user data here
     alert('User data submitted successfully!');
 });
