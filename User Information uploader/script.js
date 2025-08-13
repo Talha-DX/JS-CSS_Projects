@@ -1,4 +1,5 @@
-document.getElementById('userInfoForm').addEventListener('submit', function(e) {
+document.getElementById('userInfoForm').addEventListener('submit', function(e) 
+{
     e.preventDefault();
     let formData = new FormData(this);
     let userData = {};
