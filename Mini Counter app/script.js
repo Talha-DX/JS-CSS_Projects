@@ -1,11 +1,13 @@
 let i = 0;
 
-function Plus() {
+function Plus() 
+{
     i++;
     document.getElementById('demo').innerHTML = i;
 }
 
-function Min() {
+function Min() 
+{
     i--;
     document.getElementById('demo').innerHTML = i;
 }
