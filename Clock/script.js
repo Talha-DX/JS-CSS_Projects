@@ -17,7 +17,6 @@ function GetTime()
     sec.style.transform = `rotate(${Sdegree}deg)`;
     hour.style.transform = `rotate(${Hdegree}deg)`;
     min.style.transform = `rotate(${Mdegree}deg)`;
-
 }
 
 
