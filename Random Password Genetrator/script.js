@@ -1,5 +1,6 @@
 
-function Click() {
+function Click() 
+{
     let value = Math.random()*50;
     if (value<10) {
         
