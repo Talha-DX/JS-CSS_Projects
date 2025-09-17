@@ -1,4 +1,3 @@
-
 function addToDisplay(value)
 {
     document.querySelector('.display').value += value;
