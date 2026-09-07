@@ -1,4 +1,3 @@
-
 function Click() 
 {
     let value = Math.random()*50;
